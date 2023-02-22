@@ -2,7 +2,7 @@
 
 void iniciar()
 {
-      glClearColor(0, 0, 1, 1);
+      glClearColor(1.0f, 0.5f, 0.0f, 0.0f);//orange/brown
 
       glColor3f(1.f, 0, 0);
 
@@ -16,7 +16,7 @@ void dibujar()
 
       glClear(GL_COLOR_BUFFER_BIT);
 
-      glColor3f(1.f, 0, 0);
+      glColor4f(1.0f, 1.0f, 1.0f, 0.0f);//white
 
       glBegin(GL_TRIANGLES);
 

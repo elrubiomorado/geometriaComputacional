@@ -1,4 +1,4 @@
-//comando para compilar: nombreArchivo.cpp -o nombreEjecutable -lglut -lGLU -lGL
+//comando para compilar: g++ nombreArchivo.cpp -o nombreEjecutable -lglut -lGLU -lGL
 
 #include <GL/glut.h>
 #include <stdio.h>
